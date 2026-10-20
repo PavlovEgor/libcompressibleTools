@@ -14,3 +14,11 @@ This branch is laid out as an OpenFOAM (openfoam.com) plugin.
   `$WM_PROJECT_DIR`. It is then installed into `$FOAM_LIBBIN`.
 - Custom location:
   `./Allwmake -prefix=user|group|openfoam|/some/path`
+
+## Layout
+
+Same as in OpenFOAM:
+
+| Directory | Contents |
+|-----------|----------|
+| `src/` | libraries (`src/Allwmake` builds them in dependency order) |

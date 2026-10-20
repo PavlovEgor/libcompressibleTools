@@ -1,2 +1,2 @@
-/Sources/Make/linux*
-/Sources/lnInclude
+lnInclude/
+linux*/
